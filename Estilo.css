@@ -23,7 +23,7 @@ p {
 
 header {
     color: white;
-    height: 5rem;
+    height: auto;
     margin: 0;
     background-color: #870A28;
     display: flex;
