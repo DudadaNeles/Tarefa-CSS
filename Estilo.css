@@ -69,6 +69,7 @@ section.about figure img{
     border-radius: 50%; /* Faz a imagem ficar circular */
     object-fit: cover; /* Garante que a imagem preencha o contêiner */
     border: 2px solid #000; /* Adiciona uma borda opcional */    
+    box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.1);
 }
 
 section.about div{
@@ -107,7 +108,7 @@ section.about div{
     gap: 0.5rem;
 }
 
-.lista div div{ /*todo card*/
+.card{ /*todo card*/
     width: 6.25rem;
     height: 9.25rem;
     padding: 0.5rem;
@@ -119,11 +120,18 @@ section.about div{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    /*transition: transform 0.2s;*/
+    transition-duration: 0.4s;
 }
 
-.lista div div div {
+.card:hover{ 
+    width: 7.25rem;
+}
+
+.card div {
     font-size: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: auto;
     width: auto;
     align-items: center;
@@ -131,43 +139,43 @@ section.about div{
     color: white;
 }
 
-.card-1{
+.c1{
     background-image: url(assets/jogadores.jpg);
 }
 
-.card-2{
+.c2{
     background-image: url(assets/videogame.webp);
 }
 
-.card-3{
+.c3{
     background-image: url(assets/netflix-planos.jpg);
 }
 
-.card-4{
+.c4{
     background-image: url(assets/praia.webp);
 }
 
-.card-5{
+.c5{
     background-image: url(assets/escutar-musica.jpg);
 }
 
-.card-6{
+.c6{
     background-image: url(assets/neymar.jpg);
 }
 
-.card-7{
+.c7{
     background-image: url(assets/cristiano-ronaldo.jpg);
 }
 
-.card-8{
+.c8{
     background-image: url(assets/john-kennedy.webp);
 }
 
-.card-9{
+.c9{
     background-image: url(assets/john-arias.jpg);
 }
 
-.card-10{
+.c10{
     background-image: url(assets/fred.jpg);
 }
 
